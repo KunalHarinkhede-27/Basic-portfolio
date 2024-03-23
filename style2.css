@@ -1,0 +1,19 @@
+#resize{
+    height: 40px;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-name: animation;
+    animation-delay: 0ms;
+    animation-iteration-count: 4;
+    animation-direction:alternate;
+}
+@keyframes animation{
+    from{
+        width: 20px;
+        background-color: blue;
+        }
+    to{
+        width: 500px;
+        background-color: red;
+    }
+}
